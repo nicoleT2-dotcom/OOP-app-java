@@ -8,7 +8,7 @@ public class Main {
 
 
             String[] speciesOptions = {"Snake Plant", "Peace Lily", "Pothos", "Spider Plant"};
-            String[] lightOptions = {"Low to bright indirect", "Medium indirect", "Low to bright indirect", "Bright indirect"};
+            LightNeeds[] lightOptions = {LightNeeds.LOW, LightNeeds.MEDIUM, LightNeeds.LOW, LightNeeds.BRIGHT};
             int[] potSizeOptions = {7, 9, 6, 8};
             double[] priceOptions = {12.99, 16.25, 9.99, 11.00};
             boolean[] petSafeOptions = {false, false, true, true};

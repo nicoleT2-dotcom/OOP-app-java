@@ -3,14 +3,14 @@ package com.plants;
 //object
 public class Plant {
     private String species;
-    private String lightNeeds;
+    private LightNeeds lightNeeds;
     private int potSize;
     private double price;
     private boolean isPetSafe;
 
 
    //constructor
-    public Plant(String species, String lightNeeds, int potSize,double price, boolean isPetSafe ){
+    public Plant(String species, LightNeeds lightNeeds, int potSize,double price, boolean isPetSafe ){
         this.species = species;
         this.lightNeeds = lightNeeds;
         this.potSize = potSize;
@@ -29,11 +29,11 @@ public class Plant {
         this.species = species;
     }
 
-    public String getLightNeeds(){ return lightNeeds;
+    public LightNeeds getLightNeeds(){ return lightNeeds;
 
     }
 
-    public void setLightNeeds(String lightNeeds){
+    public void setLightNeeds( LightNeeds lightNeeds){
         this.lightNeeds = lightNeeds;
     }
 
@@ -53,7 +53,7 @@ public class Plant {
         this.price = price;
     }
 
-    public boolean IsPetSafe(){ return isPetSafe;
+    public boolean isPetSafe(){ return isPetSafe;
 
     }
 
